@@ -3,7 +3,6 @@
 //  Snip
 //
 //  Created by Rainer Selvet on 21/03/2020.
-//  Copyright © 2020 Rainer Selvet. All rights reserved.
 //
 
 import Cocoa
@@ -23,20 +22,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+        
     }
 
     @objc func togglePopover(_ sender: Any?) {
         if popover.isShown {
             closePopover(sender: sender)
-            saveContent(sender: sender)
         } else {
             showPopover(sender: sender)
         }
-    }
-    
-    func saveContent(sender: Any?) {
-        
     }
     
     func showPopover(sender: Any?) {
