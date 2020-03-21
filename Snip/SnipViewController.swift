@@ -17,7 +17,7 @@ class SnipViewController: NSViewController, NSTextViewDelegate {
         static let textContent = ""
     }
 
-    override func viewDidLoad() {
+    override func viewDidAppear() {
         super.viewDidLoad()
         textBox.font = NSFont(name: "Helvetica", size: 14)
         textBox.usesAdaptiveColorMappingForDarkAppearance = true
