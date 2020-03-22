@@ -18,7 +18,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             button.image = NSImage(named:NSImage.Name("StatusBarButtonImage"))
             button.action = #selector(togglePopover(_:))
         }
-        popover.contentViewController = SnipViewController.freshController()
+        popover.contentViewController = JotViewController.freshController()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

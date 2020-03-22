@@ -1,13 +1,13 @@
 //
-//  SnipViewController.swift
-//  Snip
+//  JotViewController.swift
+//  Jot
 //
 //  Created by Rainer Selvet on 21/03/2020.
 //
 
 import Cocoa
 
-class SnipViewController: NSViewController, NSTextViewDelegate {
+class JotViewController: NSViewController, NSTextViewDelegate {
     
     @IBOutlet var textBox: NSTextView!
     
@@ -38,12 +38,12 @@ class SnipViewController: NSViewController, NSTextViewDelegate {
     
 }
 
-extension SnipViewController {
-  static func freshController() -> SnipViewController {
+extension JotViewController {
+  static func freshController() -> JotViewController {
     let storyboard = NSStoryboard(name: NSStoryboard.Name("Main"), bundle: nil)
-    let identifier = NSStoryboard.SceneIdentifier("SnipViewController")
-    guard let viewcontroller = storyboard.instantiateController(withIdentifier: identifier) as? SnipViewController else {
-      fatalError("Cannot find SnipViewController? - Check Main.storyboard")
+    let identifier = NSStoryboard.SceneIdentifier("JotViewController")
+    guard let viewcontroller = storyboard.instantiateController(withIdentifier: identifier) as? JotViewController else {
+      fatalError("Cannot find JotViewController? - Check Main.storyboard")
     }
     return viewcontroller
   }

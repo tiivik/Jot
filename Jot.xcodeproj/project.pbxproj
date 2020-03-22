@@ -10,7 +10,7 @@
 		41C60BDC24264C3900DA27CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C60BDB24264C3900DA27CF /* AppDelegate.swift */; };
 		41C60BE024264C3A00DA27CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C60BDF24264C3A00DA27CF /* Assets.xcassets */; };
 		41C60BE324264C3A00DA27CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C60BE124264C3A00DA27CF /* Main.storyboard */; };
-		41C60BEC24264E8000DA27CF /* SnipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C60BEB24264E8000DA27CF /* SnipViewController.swift */; };
+		41C60BEC24264E8000DA27CF /* JotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C60BEB24264E8000DA27CF /* JotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		41C60BE224264C3A00DA27CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41C60BE424264C3A00DA27CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41C60BE524264C3A00DA27CF /* Snip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snip.entitlements; sourceTree = "<group>"; };
-		41C60BEB24264E8000DA27CF /* SnipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnipViewController.swift; sourceTree = "<group>"; };
+		41C60BEB24264E8000DA27CF /* JotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				41C60BDB24264C3900DA27CF /* AppDelegate.swift */,
-				41C60BEB24264E8000DA27CF /* SnipViewController.swift */,
+				41C60BEB24264E8000DA27CF /* JotViewController.swift */,
 				41C60BDF24264C3A00DA27CF /* Assets.xcassets */,
 				41C60BE124264C3A00DA27CF /* Main.storyboard */,
 				41C60BE424264C3A00DA27CF /* Info.plist */,
@@ -133,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41C60BEC24264E8000DA27CF /* SnipViewController.swift in Sources */,
+				41C60BEC24264E8000DA27CF /* JotViewController.swift in Sources */,
 				41C60BDC24264C3900DA27CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Snip/Snip.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Jot/Jot.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -290,7 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Snip/Snip.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Jot/Jot.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
