@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41C60BD824264C3900DA27CF /* Snip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C60BD824264C3900DA27CF /* Jot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C60BDB24264C3900DA27CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C60BDF24264C3A00DA27CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C60BE224264C3A00DA27CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		41C60BCF24264C3800DA27CF = {
 			isa = PBXGroup;
 			children = (
-				41C60BDA24264C3900DA27CF /* Snip */,
+				41C60BDA24264C3900DA27CF /* Jot */,
 				41C60BD924264C3900DA27CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,12 +45,12 @@
 		41C60BD924264C3900DA27CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41C60BD824264C3900DA27CF /* Snip.app */,
+				41C60BD824264C3900DA27CF /* Jot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41C60BDA24264C3900DA27CF /* Snip */ = {
+		41C60BDA24264C3900DA27CF /* Jot */ = {
 			isa = PBXGroup;
 			children = (
 				41C60BDB24264C3900DA27CF /* AppDelegate.swift */,
@@ -60,15 +60,15 @@
 				41C60BE424264C3A00DA27CF /* Info.plist */,
 				41C60BE524264C3A00DA27CF /* Snip.entitlements */,
 			);
-			path = Snip;
+			path = Jot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		41C60BD724264C3900DA27CF /* Snip */ = {
+		41C60BD724264C3900DA27CF /* Jot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41C60BE824264C3A00DA27CF /* Build configuration list for PBXNativeTarget "Snip" */;
+			buildConfigurationList = 41C60BE824264C3A00DA27CF /* Build configuration list for PBXNativeTarget "Jot" */;
 			buildPhases = (
 				41C60BD424264C3900DA27CF /* Sources */,
 				41C60BD524264C3900DA27CF /* Frameworks */,
@@ -78,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = Snip;
+			name = Jot;
 			productName = Snip;
-			productReference = 41C60BD824264C3900DA27CF /* Snip.app */;
+			productReference = 41C60BD824264C3900DA27CF /* Jot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 41C60BD324264C3900DA27CF /* Build configuration list for PBXProject "Snip" */;
+			buildConfigurationList = 41C60BD324264C3900DA27CF /* Build configuration list for PBXProject "Jot" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41C60BD724264C3900DA27CF /* Snip */,
+				41C60BD724264C3900DA27CF /* Jot */,
 			);
 		};
 /* End PBXProject section */
@@ -270,14 +270,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Snip/Snip.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Snip/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Jot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.rainerselvet.Snip;
+				PRODUCT_BUNDLE_IDENTIFIER = app.rainerselvet.jot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -288,14 +291,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Snip/Snip.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Snip/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Jot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.rainerselvet.Snip;
+				PRODUCT_BUNDLE_IDENTIFIER = app.rainerselvet.jot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -304,7 +310,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41C60BD324264C3900DA27CF /* Build configuration list for PBXProject "Snip" */ = {
+		41C60BD324264C3900DA27CF /* Build configuration list for PBXProject "Jot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41C60BE624264C3A00DA27CF /* Debug */,
@@ -313,7 +319,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41C60BE824264C3A00DA27CF /* Build configuration list for PBXNativeTarget "Snip" */ = {
+		41C60BE824264C3A00DA27CF /* Build configuration list for PBXNativeTarget "Jot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41C60BE924264C3A00DA27CF /* Debug */,
